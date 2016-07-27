@@ -1,0 +1,199 @@
+@import url('http://necolas.github.io/normalize.css/3.0.2/normalize.css');
+
+/*General*/
+body {
+  background: #fff;
+  max-width: 980px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font: Helvetica Neue, Helvectica, Arial, serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #8d9aa5;
+}
+
+a {
+  color: #3f8aBf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3079ab;
+}
+
+a:visited {
+  color: #5a6772;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  color: #384047;
+}
+
+h1 {
+  color: rgba(220,170, 120, 1);
+  text-shadow: 2px 2px 5px rgb(0,0,0);
+  font-family: font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  padding: 15px;
+  letter-spacing: 2px;
+  line-height: 110%;
+
+
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px 0 30px 0;
+}
+
+#home h2 {
+  margin: -40px 0 0;
+}
+
+h3 {
+  font-size: .9em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h3 em {
+  font-style: normal;
+  font-weight: 300;
+  margin: 0 0 10px 5px;
+  padding: 0;
+  color: #8d9aa5;
+}
+
+ol {
+  margin: 0 0 20px 32px;
+  padding: 0;
+}
+
+#home ol {
+  list-style-type: none;
+  margin: 0 0 40px 0;
+}
+
+li {
+  padding: 8px 0;
+  display: list-item;
+  width: 100%;
+  margin: 0;
+  counter-increment: step-counter;
+}
+
+#home li::before {
+    content: counter(step-counter);
+    font-size: .65em;
+    color: #fff;
+    font-weight: 300;
+    padding: 2px 6px;
+    margin:  0 18px 0 0;
+    border-radius: 3px;
+    background:#8d9aa5;
+    line-height: 1em;
+}
+
+.lens {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #8d9aa5;
+  border-radius: 5px;
+  position: absolute;
+  margin: 5px 0 0 -19px;
+}
+
+#color div {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+span {
+  color: red;
+}
+
+#quote {
+  color: rgba(220,170, 120, 1);
+  font-family: font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 15px;
+  letter-spacing: 2px;
+  line-height: 110%;
+  background-color: rgba(205,200,150, 0.25);
+  border-radius: 15px;
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.9);
+
+}
+
+#quote:hover {
+  background-color: rgba(205,200,150, 0.45);
+  border-radius: 15px;
+}
+
+#source {
+  text-align: right;
+  color: rgba(200,150, 100, 1);
+  font-family: font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 0.9);
+  padding: 3px;
+}
+
+
+
+ul {
+  list-style: none;
+  font-size: 8pt;
+  font-family: font-family: 'Anton', sans-serif;
+  color: rgba(0,0, 0, 1);
+  border-color: rgba(150,150,150, 1);
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: rgba(200,200,200, 0.85);
+  box-shadow:  0px 0px 15px rgb(0,0,0);
+
+}
+
+#quote-box {
+
+  background-color: rgba(255,240,200, 0.75);
+
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow:  0px 0px 15px rgb(0,0,0);
+}
+
+.input {
+  border: solid;
+  border-color: rgba(232,224,185, 1);
+  margin-bottom: 10px;
+  background-color: rgba(243,234,198, 1);
+  color: rgba(220,170, 120, 1);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.input:hover{
+
+  background-color: rgba(232,224,185, 1);
+}
+
+.toggle {
+
+}
